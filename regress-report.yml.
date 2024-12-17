@@ -15,7 +15,7 @@
     Фильтрация товаров по максимальной цене   
   status: fail 
 
-bugreports:
+- bugreports:
 - summary: |1
     Не корректная работа фильтрации товаров по максимальной цене
   environment: |
@@ -46,7 +46,7 @@ bugreports:
     Поиск по несуществующему слову
   status: pass
 
-bugreports:
+- bugreports:
 - summary: |
     Поиск по несуществующему слову
   environment: |
@@ -64,7 +64,7 @@ bugreports:
     Фильтрация товаров по фильтру "в наличии"
   status: pass
 
-bugreports:
+- bugreports:
 - summary: |
     Некорректная работа фильтра "В наличии"
   environment: |
@@ -119,7 +119,7 @@ bugreports:
     Веб-сайт интернет-магазина корректно отображается в декстопной версии в браузере Google Chrome
   status: fail
 
-bugreports:
+- bugreports:
 - summary: |
     Некорректное отображение веб-сайта интернет-магазина в декстопной версии в браузере Google Chrome
   environment: |
@@ -150,7 +150,7 @@ bugreports:
     Корректное отображение мобильной версии веб-сайта интернет-магазина
   status: fail
 
-bugreports:
+- bugreports:
 - summary: |
     Некорректное отображение веб-сайта интернет-магазина в мобильной версии в браузере Google Chrome
   environment: |
