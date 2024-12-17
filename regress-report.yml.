@@ -16,7 +16,7 @@
   status: fail 
 
 - bugreports:
-- summary: |1
+- summary: |
     Не корректная работа фильтрации товаров по максимальной цене
   environment: |
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
