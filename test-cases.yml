@@ -4,7 +4,7 @@
   requirement: |
     Проверка корректной работы поля поиска товаров по названию 
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Название товара = поиск
   steps:
@@ -17,7 +17,7 @@
   requirement: |
     Проверка формы поиска товаров по выбранной категории 
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Категория = поиск
   steps:
@@ -31,7 +31,7 @@
   requirement: |
     Проверка полного списка категорий фильтра "Категория"  
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)  
   test-data: |
     Категория = поиск
   steps:
@@ -48,7 +48,7 @@
   requirement: |
     Проверить функцию фильтрации товаров по цене
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)   
   test-data: |
     Цена = фильтрация товаров
   steps:
@@ -62,7 +62,7 @@
   requirement: |
     Проверить корректность работы фильтрации товаров по минимальной цене
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)   
   test-data: |
     Цена = фильтрация товаров
   steps:
@@ -77,7 +77,7 @@
   requirement: |
     Проверить корректность работы фильтрации товаров по максимальной цене
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Цена = фильтрация товаров
   steps:
@@ -92,7 +92,7 @@
   requirement: |
     Проверить функцию фильтрации товаров по бренду
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Бренд = фильтрация товаров
   steps:
@@ -106,7 +106,7 @@
   requirement: |
     Проверка корректного списка всех брендов товаров в меню  фильтра "Бренд"
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)   
   test-data: |
     Меню фильтра "Бренд"
   steps:
@@ -123,7 +123,7 @@
   requirement: |
     Проверить корректность работы фильтрации товаров по цене с некорректными данными (отрицательное число)
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)  
   test-data: |
     Цена = фильтрация товаров
   steps:
@@ -137,7 +137,7 @@
   requirement: |
     Проверить корректность обработки поискового запроса, содержащего несуществующее слово
   prerequisites: |
-    Пользователь находится на странице "Все товары" https://hexlet-products-store.vercel.app/
+    Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
   test-data: |
     Поисковая строка = несуществующее слово "asdfghj" 
   steps:
@@ -150,7 +150,7 @@
   requirement: |
     Проверить функцию фильтрации товаров по фильтру "в наличии"
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)  
   test-data: |
     "В наличии" = фильтрация товаров
   steps:
@@ -163,7 +163,7 @@
   requirement: |
     Проверить возможность просмотра  товаров на странице сайта
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)    
   test-data: |
     Список товаров
   steps:
@@ -176,7 +176,7 @@
   requirement: |
     Проверить возможность просмотра пользователем подробной информации о товаре
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)   
   test-data: |
     Информация о товаре
   steps:
@@ -190,7 +190,7 @@
   requirement: |
     Проверить возможность добавления пользователем нескольких едениц товара одного наименования в корзину
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Товар из каталога
   steps:
@@ -205,7 +205,7 @@
   requirement: |
     Проверить возможность добавления пользователем разных товаров в корзину
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/     
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
     Товар из каталога
   steps:
@@ -221,7 +221,7 @@
   requirement: |
     Проверить возможность пользователя просматривать содержимое корзины
   prerequisites: |
-    Товары добавлены в корзину https://hexlet-products-store.vercel.app/cart
+    Товары добавлены в корзину (https://hexlet-products-store.vercel.app/cart)
   test-data: |
     Просмотр корзины
   steps:
@@ -235,7 +235,7 @@
   requirement: |
     Проверка возможности продолжать выбирать товары в каталоге после добавления товара/товаров в корзину
   prerequisites: |
-    Пользователь добавил товар/товары в корзину https://hexlet-products-store.vercel.app/cart
+    Пользователь добавил товар/товары в корзину (https://hexlet-products-store.vercel.app/cart)
   test-data: |
     Переход из корзины в каталог
   steps:
@@ -249,7 +249,7 @@
   requirement: |
     У пользователя есть возможность удалять товары из корзины
   prerequisites: |
-    Пользователь находится в "Корзине", в которой добавлены  товары https://hexlet-products-store.vercel.app/cart
+    Пользователь находится в "Корзине", в которой добавлены товары (https://hexlet-products-store.vercel.app/cart)
   test-data: |
     Удаление товаров из корзины
   steps:
@@ -263,7 +263,7 @@
   requirement: |
     Проверка сохранения данных корзины в сессии браузера
   prerequisites: |
-    Товары добавлены в корзину https://hexlet-products-store.vercel.app/cart
+    Товары добавлены в корзину (https://hexlet-products-store.vercel.app/cart)
   test-data: |
     Хранение корзины в сессии браузера
   steps:
@@ -277,7 +277,7 @@
   requirement: |
     Проверка возможности пользователем очистить корзину и продолжить выбор товаров в каталоге
   prerequisites: |
-    Пользователь находится на странице "Корзина" https://hexlet-products-store.vercel.app/cart
+    Пользователь находится на странице "Корзина" (https://hexlet-products-store.vercel.app/cart)
   test-data: |
     Очистка корзины = продолжение покупок
   steps:
@@ -291,7 +291,7 @@
   requirement: |
     Проверка корректного отображения информации о цене товара, цене товара со скидкой в каталоге и на странице товара
   prerequisites: |
-    Открыта страница "Все товары" https://hexlet-products-store.vercel.app/  
+    Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)
   test-data: |
     Товар с установленной ценой, скидкой
   steps:
@@ -384,7 +384,7 @@
   requirement: |
     Веб-сайт интернет-магазина отображается корректно и полностью функционален на стационарных компьютерах (декстопах) в браузере Google Chrome
   prerequisites: |
-    Пользователь находится на сайте интернет-магазина https://hexlet-products-store.vercel.app/
+    Пользователь находится на сайте интернет-магазина (https://hexlet-products-store.vercel.app/)
   test-data: |
     Google Chrome = Windows 
   steps:
@@ -409,7 +409,7 @@
   requirement: |
     Проверка корректного отображения мобильной версии веб-сайта интернет-магазина
   prerequisites: |
-    Пользователь находится на сайте интернет-магазина https://hexlet-products-store.vercel.app/
+    Пользователь находится на сайте интернет-магазина (https://hexlet-products-store.vercel.app/)
     Интернет-соединение стабильное
   test-data: |
     Google Chrome = Android Redmi Note 11 Pro 5G разрешение 2400 х 1080
@@ -437,7 +437,7 @@
   requirement: |
     При переключении на русскоязычную версию веб-сайта весь текстовый контент должен быть переведен на русский язык
   prerequisites: |
-    Пользователь находится на странице "Все товары"  https://hexlet-products-store.vercel.app/
+    Пользователь находится на странице "Все товары"  (https://hexlet-products-store.vercel.app/)
   test-data: |
     Перевод контента на русский язык
   steps:
@@ -452,7 +452,7 @@
   requirement: |
     При переключении веб-сайта на англоязычную версию весь текстовый контент должен быть переведен на английский язык
   prerequisites: |
-    Пользователь находится на странице "Все товары" https://hexlet-products-store.vercel.app/
+    Пользователь находится на странице "Все товары" (https://hexlet-products-store.vercel.app/)
   test-data: |
     Перевод контента на английский язык
   steps:
@@ -461,3 +461,17 @@
     - Проверить, что весь текстовой контент, включая название, описание, панель фильтров, панель управления, кнопки, страница корзины, оформления покупки  переведены на английский язык
   expected-result: |
     При переключении веб-сайта на англоязычную версию весь текстовый контент корректно переведен на английский язык
+
+
+- summary: |
+    Проверка фильтрации товаров по клику на хэштег
+  requirement: |
+    По клику на хэштег должен фильтроваться каталог, отображая только товары из соответствующей категории
+  prerequisites: |
+    Пользователь находится на странице товара (https://hexlet-products-store.vercel.app/products/2)
+  test-data: |
+    Страница товара содержит кликабельный хэштег, относящийся к категории
+  steps:
+    - Кликнуть на хэштег
+  expected-result: |
+    Пользователь должен быть перенаправлен на страницу каталога, где отображаются только товары, принадлежащие категории, связанной с хэштегом
