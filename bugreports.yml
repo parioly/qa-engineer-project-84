@@ -5,7 +5,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Открыть страницу каталога товаров https://hexlet-products-store.vercel.app/
+    1. Открыть страницу каталога товаров (https://hexlet-products-store.vercel.app/)
     2. Ввести в поле поиска название товара 
     3. Нажать на выпадающий список фильтра "Категория"
     4. Выбрать фильтр "Бренд"
@@ -22,7 +22,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Открыть страницу "Все товары" https://hexlet-products-store.vercel.app/     
+    1. Открыть страницу "Все товары" (https://hexlet-products-store.vercel.app/)     
     2. Выбрать фильтр "цена"
     3. Установить фильтр по цене, выбрав диапазон (например, "От $ 10 до $ 150") 
   expected-result: |
@@ -38,7 +38,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Открыть страницу "Все товары" https://hexlet-products-store.vercel.app/     
+    1. Открыть страницу "Все товары" (https://hexlet-products-store.vercel.app/)    
     2. Выбрать фильтр "цена"
     3. Установить фильтр по цене, выбрав минимальную цену например, $ 10 
   expected-result: |
@@ -54,7 +54,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Открыть страницу каталога товаров https://hexlet-products-store.vercel.app/
+    1. Открыть страницу каталога товаров (https://hexlet-products-store.vercel.app/)
     2. Выбрать фильтр "Цена"
     3. Установить фильтр по цене, выбрав отрицательное значение одного из поля (например, "От $ - 10 до $ 150")
   expected-result: |
@@ -70,7 +70,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Открыть страницу каталога товаров https://hexlet-products-store.vercel.app/
+    1. Открыть страницу каталога товаров (https://hexlet-products-store.vercel.app/)
     2. Выбрать товар из списка
     3. Нажать на товар для просмотра подробной информации
   expected-result: |
@@ -128,7 +128,7 @@
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
     OS Windows 10 22H2
   steps-to-reproduce: |
-    1. Перейти в корзину в которой добавлены товары https://hexlet-products-store.vercel.app/cart
+    1. Перейти в корзину в которой добавлены товары (https://hexlet-products-store.vercel.app/cart)
     2. Нажать на кнопку "Очистить корзину" 
     3. Обновить страницу
   expected-result: |
