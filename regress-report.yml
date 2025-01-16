@@ -92,8 +92,8 @@ test-cases:
     Проверка корректности HTML разметки карточки товара
   status: pass 
 
-- bugreports:
-- summary: |
+bugreports:
+  - summary: |
     Поиск по несуществующему слову
   environment: |
     Google Chrome 131.0.6778.86 (Официальная сборка), (64 бит) 
