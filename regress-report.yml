@@ -1,8 +1,8 @@
 ---
 test-cases:
-- summary: |
-    Поиск товаров по названию
-  status: fail 
+  - summary: |
+      Поиск товаров по названию
+    status: fail 
 
 - summary: |
     Поиск товара по выбранной категории
