@@ -6,7 +6,7 @@
   prerequisites: |
     Открыта страница "Все товары" (https://hexlet-products-store.vercel.app/)     
   test-data: |
-    Название товара = поиск
+    Поиск = Название товара 
   steps:
     - Ввести название товара в поле поиска 
   expected-result: |
